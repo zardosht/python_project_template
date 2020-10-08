@@ -1,0 +1,9 @@
+title = "TOML Example"
+
+default_lang = "de"
+
+[language]
+de = "Servus"
+en = "Hi"
+
+

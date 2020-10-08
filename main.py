@@ -1,0 +1,6 @@
+import helloworld.app as app
+
+
+if __name__ == "__main__":
+    app.say_hello()
+
