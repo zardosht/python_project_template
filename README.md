@@ -1,0 +1,1 @@
+A template for Python projects including test, config files, and docs using Sphinx
