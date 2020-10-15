@@ -1,4 +1,5 @@
 dummy
 another dummy
+added a line in master after resolving conflicts and merging master into test-branch
 
 
