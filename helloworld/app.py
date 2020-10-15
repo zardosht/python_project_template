@@ -7,16 +7,17 @@ from helloworld.world import world
 Docs for `app.py`. :D 8)
 """
 
-def read_config(configfile):
-    """Reads the given config file and returns the config dictionary. 
+def read_config(configfile): 
+    """
+    Rreds the given TOML config file and returns a config dictionary.
 
-    :param configfile: The path to the `config.toml` files. Path must be
-                       relative to the `os.getcwd()`
-                        
-    :type configfile: string
-    :return: The config dictionary loaded and parsed using `toml` module.
-    :rtype: dictionary
-    """  
+    Args:
+        configfile (str): Path to the TOML config file. 
+
+    Returns:
+        dictionary: Config dictionary loaded and parsed using `toml` 
+        module. 
+    """    
     return toml.load(configfile)
 
 
