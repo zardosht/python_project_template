@@ -8,6 +8,7 @@ from helloworld.world import world
 def greeting():
     return "Hi"
     # return "Servus"
+    # return "Aloha"
 
 
 def test_say_hello(greeting):
