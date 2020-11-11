@@ -14,3 +14,10 @@ def say_hello():
     greeting = hello.get_greeting(greetings, default_lang)
     world.say_hello(greeting)
 
+    world.load_data("data/dummy.txt")
+    
+
+
+if __name__ == "__main__":
+    say_hello()
+

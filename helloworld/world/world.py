@@ -6,3 +6,9 @@ def say_hello(greeting):
     print(hello)
     return hello
 
+
+def load_data(path):
+    with open(path, "r") as f:
+        my_str = f.read()
+        print(my_str)
+
